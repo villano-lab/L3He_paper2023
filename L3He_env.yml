@@ -1,0 +1,28 @@
+name: L3He_env.yml 
+channels:
+  - default
+dependencies:
+  - python
+  - lmfit
+  - ipykernel
+  - anaconda-client
+  - anaconda-project
+  - anaconda::pytest
+  - nb_conda_kernels
+  - jupyterlab
+  - pip
+  - conda-forge::emcee
+  - astropy::gammapy
+  - astropy::corner
+  - pip:
+    - papermill
+    - bootstrapped 
+    - uproot
+    - awkward
+    - numpy
+    - scipy
+    - tabulate
+    - nbconvert
+    - matplotlib
+    - pandas
+    - h5py
