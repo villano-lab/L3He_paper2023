@@ -14,6 +14,8 @@ A_cols: list = [
 def response_function(E, En, data): 
     """defining the response function"""
 
+    Q=763.755
+
     A1 = data[0]
     A2 = data[1]
     A3 = data[2]
@@ -33,7 +35,7 @@ def response_function(E, En, data):
     A18 = data[16]
     
     #ERFC 
-    ERFC = 0.5*special.erfc(1-(((En+764)-E)/A3))
+    ERFC = 0.5*special.erfc(1-(((En+Q)-E)/A3))
     #print(ERFC)
     
     #print(E)
@@ -43,10 +45,10 @@ def response_function(E, En, data):
     #filling delta values 
     delta1 = 0.0
     delta2 = 0.0 
-    if(E <= (En + 764)):
+    if(E <= (En + Q)):
         delta1 = 1
         delta2 = 0
-    elif(E > (En + 764)):
+    elif(E > (En + Q)):
         delta1 = 0
         delta2 = 1     
         
@@ -67,22 +69,28 @@ def response_function(E, En, data):
     junk1 = (E-A18)/A15
     junk2 = (E-A13)/A14
 
-    if junk1 > 700 or junk2 > 700:
-        print(f"you're gonna get an overflow for E = {E}!!!")
-    
-    T1 = (((A17*(E-A18))+A16)/(1+np.exp((E-A18)/A15)))
-    T2 = (((A11*(A13-E)+A12))/(1+np.exp((E-A13)/A14)))
-    T3 = (A6*(np.exp(-((En+764)-E)/A7))*ERFC)
-    T4 = (A1*A4*(np.exp(-((En+764)-E)/A5))*ERFC)
-    T5 = (delta1*A1*(np.exp(-0.5*((((En+764)-E)/A3))**2)))
-    T6 = (delta2*A8*(np.exp(-0.5*(((E-(En+764))/A9))**2)))
+    #if junk1 > 700 or junk2 > 700:
+    #    print(f"you're gonna get an overflow for E = {E}!!!")
+   
+    if junk1>500:
+      T1 = 0
+    else: 
+      T1 = (((A17*(E-A18))+A16)/(1+np.exp((E-A18)/A15)))
+    if junk2>500:
+      T2 = 0
+    else:
+      T2 = (((A11*(A13-E)+A12))/(1+np.exp((E-A13)/A14)))
+    T3 = (A6*(np.exp(-((En+Q)-E)/A7))*ERFC)
+    T4 = (A1*A4*(np.exp(-((En+Q)-E)/A5))*ERFC)
+    T5 = (delta1*A1*(np.exp(-0.5*((((En+Q)-E)/A3))**2)))
+    T6 = (delta2*A8*(np.exp(-0.5*(((E-(En+Q))/A9))**2)))
     #print(T5*normfac,T6*normfac,E)
     response = T1+T2+T3+T4+T5+T6
     response*=normfac
 
     #+ (((A11*(A13-E)+A12))/(1+math.exp((E-A13)/A14))) + \
-      #          (A6*(-math.exp(((En+764)-E)/A7))*ERFC) + (A1*A4*(-math.exp(((En+764)-E)/A5))*ERFC) + \
-         #       (delta1*A1*(-math.exp(0.5*((En+764)-E)/A3)**2)) + (delta2*A8*(-math.exp(0.5*((En+764)-E)/A9)**2))
+      #          (A6*(-math.exp(((En+Q)-E)/A7))*ERFC) + (A1*A4*(-math.exp(((En+Q)-E)/A5))*ERFC) + \
+         #       (delta1*A1*(-math.exp(0.5*((En+Q)-E)/A3)**2)) + (delta2*A8*(-math.exp(0.5*((En+Q)-E)/A9)**2))
 
     return response
 
