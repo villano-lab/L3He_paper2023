@@ -1,13 +1,13 @@
 Copper on He interface problem InterfaceProblem: N. Abgrall et al., Nucl. Instr. and Meth. A 828 (2016) (doi:10.1016/j.nima.2016.04.070)
-2 2
-2 0 6.50 0.0000001
+2 2 1
+1 0 6.50 0.0000001
   29 1.0 
 100
-15
+1
   922380 3e-14 
 target is composed of He
 1 0
   2 1.0
 20 10.0 0.0
 1 4000
-  2 1.0
+  40090 1.0
