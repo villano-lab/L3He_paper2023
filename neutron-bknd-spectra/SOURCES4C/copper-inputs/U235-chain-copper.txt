@@ -3,9 +3,8 @@ Copper on He interface problem InterfaceProblem: N. Abgrall et al., Nucl. Instr.
 1 0 6.50 0.0000001
   29 1.0 
 100
-11
+10
   832110 3.739247750622665e-31
-  842150 5.201167821191366e-36
   842150 5.201167821191366e-36
   852190 1.5307378580323787e-31
   862190 1.1564640410958904e-32
@@ -15,6 +14,7 @@ Copper on He interface problem InterfaceProblem: N. Abgrall et al., Nucl. Instr.
   902270 4.717616329389788e-27
   912310 3.017084318181818e-21
   922350 6.4836e-17
+
 target is composed of He
 1 0
   2 1.0
