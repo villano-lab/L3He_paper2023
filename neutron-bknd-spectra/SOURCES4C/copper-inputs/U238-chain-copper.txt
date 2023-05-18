@@ -4,7 +4,6 @@ Copper on He interface problem InterfaceProblem: N. Abgrall et al., Nucl. Instr.
   29 1.0 
 100
 9
-  922380 3e-14
   832140 1.5253062876344416e-30
   842100 7.636550937565153e-25
   842140 1.0449753293843996e-35
