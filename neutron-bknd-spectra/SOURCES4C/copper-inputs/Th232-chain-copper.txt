@@ -2,7 +2,7 @@ Copper on He interface problem InterfaceProblem: N. Abgrall et al., Nucl. Instr.
 2 2 1
 1 0 6.50 0.0000001
   29 1.0 
-100
+1000
 7
   832120 8.872174657534247e-29
   842120 2.031691672102631e-38
