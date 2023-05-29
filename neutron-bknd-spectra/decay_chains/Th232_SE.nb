@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     46447,       1197]
-NotebookOptionsPosition[     42050,       1129]
-NotebookOutlinePosition[     42447,       1145]
-CellTagsIndexPosition[     42404,       1142]
+NotebookDataLength[     51674,       1330]
+NotebookOptionsPosition[     46661,       1254]
+NotebookOutlinePosition[     47058,       1270]
+CellTagsIndexPosition[     47015,       1267]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1125,6 +1125,131 @@ Cell[BoxData[
     RowBox[{"a", "-", "i"}], ")"}]}]]], "Output",
  CellChangeTimes->{3.894308900747121*^9},
  CellLabel->"Out[34]=",ExpressionUUID->"e31019b3-ca05-45ae-8892-0ac37510c6be"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   SubscriptBox["f", "10"], "[", 
+   RowBox[{
+   "t_", ",", "l1_", ",", "l2_", ",", " ", "l3_", ",", "l4_", ",", "l5_", ",",
+     "l6_", ",", "l7_", ",", "l8_", ",", "l9_", ",", "l10_", ",", "l11_", ",",
+     "b9a_", ",", "b9b_"}], "]"}], ":=", 
+  RowBox[{
+   RowBox[{
+    SubscriptBox["N", "10"], "[", 
+    RowBox[{
+    "t", ",", "l1", ",", " ", "l2", ",", " ", "l3", ",", " ", "l4", ",", " ", 
+     "l5", ",", " ", "l6", ",", " ", "l7", ",", " ", "l8", ",", " ", "l9", 
+     ",", " ", "l10", ",", " ", "l11", ",", "b9a", ",", "b9b"}], "]"}], "/", 
+   RowBox[{
+    SubscriptBox["N", "1"], "[", 
+    RowBox[{
+    "t", ",", "l1", ",", " ", "l2", ",", " ", "l3", ",", " ", "l4", ",", " ", 
+     "l5", ",", " ", "l6", ",", " ", "l7", ",", " ", "l8", ",", " ", "l9", 
+     ",", " ", "l10", ",", " ", "l11", ",", "b9a", ",", "b9b"}], 
+    "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.894309220452211*^9, 3.894309226945731*^9}},
+ CellLabel->"In[35]:=",ExpressionUUID->"360524d2-c0f2-46eb-96fd-d6d2ed3273ea"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   SubscriptBox["r", "10"], "[", 
+   RowBox[{
+   "t_", ",", "l1_", ",", "l2_", ",", " ", "l3_", ",", "l4_", ",", "l5_", ",",
+     "l6_", ",", "l7_", ",", "l8_", ",", "l9_", ",", "l10_", ",", "l11_", ",",
+     "b9a_", ",", "b9b_"}], "]"}], ":=", 
+  RowBox[{"Limit", "[", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["f", "10"], "[", 
+     RowBox[{
+     "t", ",", "l1", ",", " ", "l2", ",", " ", "l3", ",", " ", "l4", ",", " ",
+       "l5", ",", " ", "l6", ",", " ", "l7", ",", " ", "l8", ",", " ", "l9", 
+      ",", " ", "l10", ",", " ", "l11", ",", "b9a", ",", "b9b"}], "]"}], ",", 
+    
+    RowBox[{"t", "->", "Infinity"}], ",", 
+    RowBox[{"Assumptions", "->", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"l2", ">", "l1"}], ",", 
+       RowBox[{"l3", ">", "l1"}], ",", 
+       RowBox[{"l4", ">", "l1"}], ",", 
+       RowBox[{"l5", ">", "l1"}], ",", 
+       RowBox[{"l6", ">", "l1"}], ",", 
+       RowBox[{"l7", ">", "l1"}], ",", 
+       RowBox[{"l8", ">", "l1"}], ",", 
+       RowBox[{"l9", ">", "l1"}], ",", 
+       RowBox[{"l10", ">", "l1"}]}], "}"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.894309251890519*^9, 3.894309266151392*^9}},
+ CellLabel->"In[36]:=",ExpressionUUID->"7456330c-2e8e-4f9a-9257-00abf1da5eb6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  SubscriptBox["r", "10"], "[", 
+  RowBox[{
+  "t", ",", "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", 
+   ",", "h", ",", "i", ",", "j", ",", "k", ",", "b9a", ",", "b9b"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.894309280168496*^9, 3.894309281410228*^9}},
+ CellLabel->"In[37]:=",ExpressionUUID->"ee2018b7-c38b-4800-b4ca-2839e3f5110e"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Simplify", "time", 
+   "\"Time spent on a transformation exceeded \
+\\!\\(\\*RowBox[{\\\"300.`\\\"}]\\) seconds, and the transformation was \
+aborted. Increasing the value of the TimeConstraint option may improve the \
+result of simplification.\"", 2, 37, 1, 30842711579628838660, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.894309626628688*^9},
+ CellLabel->
+  "During evaluation of \
+In[37]:=",ExpressionUUID->"fc023aca-deb0-4c4f-81ac-d9316689eacb"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Simplify", "time", 
+   "\"Time spent on a transformation exceeded \
+\\!\\(\\*RowBox[{\\\"300.`\\\"}]\\) seconds, and the transformation was \
+aborted. Increasing the value of the TimeConstraint option may improve the \
+result of simplification.\"", 2, 37, 2, 30842711579628838660, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8943099422852716`*^9},
+ CellLabel->
+  "During evaluation of \
+In[37]:=",ExpressionUUID->"9c713ffb-1528-49d1-964d-7a18f982c7da"],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  FractionBox[
+   RowBox[{
+   "a", " ", "b", " ", "b9b", " ", "c", " ", "d", " ", "e", " ", "f", " ", 
+    "g", " ", "h", " ", "i"}], 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"a", "-", "b"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"a", "-", "c"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"a", "-", "d"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"a", "-", "e"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"a", "-", "f"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"a", "-", "g"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"a", "-", "h"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"a", "-", "i"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{"a", "-", "j"}], ")"}]}]]}]], "Output",
+ CellChangeTimes->{3.894309944295746*^9},
+ CellLabel->"Out[37]=",ExpressionUUID->"7a0791f1-7e42-4359-93cb-a057a521e7ee"]
 }, Open  ]]
 },
 WindowSize->{808, 791},
@@ -1197,7 +1322,15 @@ Cell[38636, 1035, 1031, 23, 73, "Input",ExpressionUUID->"d636ea91-9579-4242-ae21
 Cell[39670, 1060, 1226, 30, 94, "Input",ExpressionUUID->"27674bdf-9782-4a21-bccf-dc6c62ed14f4"],
 Cell[CellGroupData[{
 Cell[40921, 1094, 380, 8, 30, "Input",ExpressionUUID->"0f97d6ee-c91f-47b8-bd80-84f4d542fa3e"],
-Cell[41304, 1104, 730, 22, 76, "Output",ExpressionUUID->"e31019b3-ca05-45ae-8892-0ac37510c6be"]
+Cell[41304, 1104, 730, 22, 53, "Output",ExpressionUUID->"e31019b3-ca05-45ae-8892-0ac37510c6be"]
+}, Open  ]],
+Cell[42049, 1129, 1034, 23, 73, "Input",ExpressionUUID->"360524d2-c0f2-46eb-96fd-d6d2ed3273ea"],
+Cell[43086, 1154, 1269, 31, 115, "Input",ExpressionUUID->"7456330c-2e8e-4f9a-9257-00abf1da5eb6"],
+Cell[CellGroupData[{
+Cell[44380, 1189, 379, 8, 30, "Input",ExpressionUUID->"ee2018b7-c38b-4800-b4ca-2839e3f5110e"],
+Cell[44762, 1199, 510, 11, 46, "Message",ExpressionUUID->"fc023aca-deb0-4c4f-81ac-d9316689eacb"],
+Cell[45275, 1212, 512, 11, 46, "Message",ExpressionUUID->"9c713ffb-1528-49d1-964d-7a18f982c7da"],
+Cell[45790, 1225, 855, 26, 76, "Output",ExpressionUUID->"7a0791f1-7e42-4359-93cb-a057a521e7ee"]
 }, Open  ]]
 }
 ]
