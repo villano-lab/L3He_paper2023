@@ -1,0 +1,165 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4848,        157]
+NotebookOptionsPosition[      4406,        142]
+NotebookOutlinePosition[      4803,        158]
+CellTagsIndexPosition[      4760,        155]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"<<", "Notation`"}]], "Input",
+ CellChangeTimes->{{3.894469867226859*^9, 3.8944698702051086`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"0f182081-9d9b-4080-aab5-f6218bc406c1"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "1"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "2"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "3"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "4"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "5"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "6"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "7"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "8"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "9"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "10"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "11"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "12"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "13"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "14"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "15"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "16"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "17"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["\[Lambda]", "18"]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["b", 
+      RowBox[{"8", ",", "\[Beta]"}]]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["b", 
+      RowBox[{"8", ",", "\[Alpha]"}]]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["b", 
+      RowBox[{"11", ",", "\[Beta]"}]]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["b", 
+      RowBox[{"11", ",", "\[Alpha]"}]]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["b", 
+      RowBox[{"14", ",", "\[Beta]"}]]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["b", 
+      RowBox[{"14", ",", "\[Alpha]"}]]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["b", 
+      RowBox[{"15", ",", "\[Beta]"}]]},
+    "NotationTemplateTag"], "]"}], ";", 
+  RowBox[{"Symbolize", "[", 
+   TemplateBox[{
+     SubscriptBox["b", 
+      RowBox[{"15", ",", "\[Alpha]"}]]},
+    "NotationTemplateTag"], "]"}]}]], "Input",
+ CellChangeTimes->{{3.894469954161455*^9, 3.894470012966538*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"74ad4d8e-b191-451f-ab75-45a48520140c"]
+},
+WindowSize->{808, 791},
+WindowMargins->{{36, Automatic}, {16, Automatic}},
+FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"6043957d-ae77-4bf9-97a6-d73a3ed9ee90"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 199, 3, 30, "Input",ExpressionUUID->"0f182081-9d9b-4080-aab5-f6218bc406c1"],
+Cell[760, 25, 3642, 115, 878, "Input",ExpressionUUID->"74ad4d8e-b191-451f-ab75-45a48520140c"]
+}
+]
+*)
+

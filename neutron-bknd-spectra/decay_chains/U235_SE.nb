@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     96759,       2196]
-NotebookOptionsPosition[     90181,       2103]
-NotebookOutlinePosition[     90579,       2119]
-CellTagsIndexPosition[     90536,       2116]
+NotebookDataLength[     95176,       2162]
+NotebookOptionsPosition[     88601,       2069]
+NotebookOutlinePosition[     88999,       2085]
+CellTagsIndexPosition[     88956,       2082]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2058,48 +2058,14 @@ Cell[BoxData[
 
 Cell[BoxData[
  RowBox[{
+  SubscriptBox["r", "9"], "[", 
   RowBox[{
-   SubscriptBox["r", "9"], "[", 
-   RowBox[{
-   "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", 
-    ",", "i", ",", "j", ",", "k", ",", "l", ",", "m1", ",", "n", ",", "o", 
-    ",", "p", ",", "b4a", ",", "b4b", ",", "b6a", ",", "b6b", ",", "b8a", ",",
-     "b8b", ",", "b11a", ",", "b11b", ",", "b14a", ",", "b14b"}], "]"}], ";", 
-  
-  RowBox[{
-   SubscriptBox["r", "11"], "[", 
-   RowBox[{
-   "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", 
-    ",", "i", ",", "j", ",", "k", ",", "l", ",", "m1", ",", "n", ",", "o", 
-    ",", "p", ",", "b4a", ",", "b4b", ",", "b6a", ",", "b6b", ",", "b8a", ",",
-     "b8b", ",", "b11a", ",", "b11b", ",", "b14a", ",", "b14b"}], "]"}], ";", 
-  
-  RowBox[{
-   SubscriptBox["r", "12"], "[", 
-   RowBox[{
-   "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", 
-    ",", "i", ",", "j", ",", "k", ",", "l", ",", "m1", ",", "n", ",", "o", 
-    ",", "p", ",", "b4a", ",", "b4b", ",", "b6a", ",", "b6b", ",", "b8a", ",",
-     "b8b", ",", "b11a", ",", "b11b", ",", "b14a", ",", "b14b"}], "]"}], ";", 
-  
-  RowBox[{
-   SubscriptBox["r", "14"], "[", 
-   RowBox[{
-   "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", 
-    ",", "i", ",", "j", ",", "k", ",", "l", ",", "m1", ",", "n", ",", "o", 
-    ",", "p", ",", "b4a", ",", "b4b", ",", "b6a", ",", "b6b", ",", "b8a", ",",
-     "b8b", ",", "b11a", ",", "b11b", ",", "b14a", ",", "b14b"}], "]"}], ";", 
-  
-  RowBox[{
-   SubscriptBox["r", "15"], "[", 
-   RowBox[{
-   "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", 
-    ",", "i", ",", "j", ",", "k", ",", "l", ",", "m1", ",", "n", ",", "o", 
-    ",", "p", ",", "b4a", ",", "b4b", ",", "b6a", ",", "b6b", ",", "b8a", ",",
-     "b8b", ",", "b11a", ",", "b11b", ",", "b14a", ",", "b14b"}], 
-   "]"}]}]], "Input",
- CellChangeTimes->{{3.8944595845964193`*^9, 3.894459617150025*^9}},
- CellLabel->"In[60]:=",ExpressionUUID->"46828b09-4bbe-4b84-b16a-d3248506f5f8"]
+  "a", ",", "b", ",", "c", ",", "d", ",", "e", ",", "f", ",", "g", ",", "h", 
+   ",", "i", ",", "j", ",", "k", ",", "l", ",", "m1", ",", "n", ",", "o", ",",
+    "p", ",", "b4a", ",", "b4b", ",", "b6a", ",", "b6b", ",", "b8a", ",", 
+   "b8b", ",", "b11a", ",", "b11b", ",", "b14a", ",", "b14b"}], 
+  "]"}]], "Input",
+ CellLabel->"In[61]:=",ExpressionUUID->"0744ad03-06b5-417e-a1eb-85e877170be9"]
 },
 WindowSize->{808, 791},
 WindowMargins->{{Automatic, 224}, {20, Automatic}},
@@ -2197,7 +2163,7 @@ Cell[81682, 1916, 1456, 28, 136, "Input",ExpressionUUID->"62f8d6d3-ba0e-4392-944
 Cell[83141, 1946, 1768, 39, 136, "Input",ExpressionUUID->"492ad24b-3d80-49f0-98c2-3b45e855d7bc"],
 Cell[84912, 1987, 1458, 28, 136, "Input",ExpressionUUID->"8970b098-ed17-480c-8657-f4066d6ac06d"],
 Cell[86373, 2017, 1760, 39, 136, "Input",ExpressionUUID->"03c48fae-2c58-41f4-af92-e24822685a7d"],
-Cell[88136, 2058, 2041, 43, 220, "Input",ExpressionUUID->"46828b09-4bbe-4b84-b16a-d3248506f5f8"]
+Cell[88136, 2058, 461, 9, 52, "Input",ExpressionUUID->"0744ad03-06b5-417e-a1eb-85e877170be9"]
 }
 ]
 *)
