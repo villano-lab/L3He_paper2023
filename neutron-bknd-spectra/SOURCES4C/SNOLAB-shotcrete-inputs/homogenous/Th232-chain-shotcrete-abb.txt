@@ -13,7 +13,7 @@ Bulk Shotcrete problem: N. Abgrall et al., Nucl. Instr. and Meth. A 828 (2016) (
  25  6.73e-5
  26  4.54e-4
 100 10.0 0.0
-1
+7
  832120 5.201803E+00
  842120 2.728439E-10
  842160 2.073918E-04
