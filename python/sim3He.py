@@ -8,8 +8,10 @@ import h5py
 import os.path
 import sys
 current_module = sys.modules[__name__]
-
 mod_path = os.path.split(current_module.__file__)[0]
+
+#basic conversions
+topm2pday = 10000*86400 #convert flux /cm^2/s into /m^2/day
 
 #a crude function to get liquid or gas density pressure (p) = None means liquid
 def get3HeDensity(p=None):
@@ -41,6 +43,8 @@ def get3HeDensity(p=None):
 def getSNOLABnFlux():
   fast_flux_df = pd.read_pickle('{}/data/FDF.txt'.format(mod_path)) # 'E' in MeV, 'spec' in neutrons cm^-2 sec^-1 MeV^-1
   print(fast_flux_df)
+  fast_flux = integrate_df(fast_flux_df)
+  print(fast_flux*topm2pday)
 
 #some useful functions
 def integrate_df(df):
